@@ -7,5 +7,4 @@
 
 
 ## 2024-06-07
--Set up mission statement<br>
--Mission Statement:  Sharpen big data and machine learning skills by ingesting earnings call transcripts and creating an "uncertainty" dictionary via neural networks. <br>
+-**Mission Statement:  Sharpen big data and machine learning skills by ingesting earnings call transcripts and creating an "uncertainty" dictionary via neural networks.** <br>
