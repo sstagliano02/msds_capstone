@@ -8,3 +8,6 @@
 
 ## 2024-06-07
 -**Mission Statement:  Sharpen big data and machine learning skills by ingesting earnings call transcripts and creating an "uncertainty" dictionary via neural networks.** <br>
+
+
+## 2024-06-10
