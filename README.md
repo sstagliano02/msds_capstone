@@ -11,3 +11,4 @@
 
 
 ## 2024-06-10
+--[Requirements Slides](https://docs.google.com/presentation/d/1kJGZvuGkIB1E4net2ipg81y3v-zn55AepvC93jrRlPs/edit#slide=id.p)
