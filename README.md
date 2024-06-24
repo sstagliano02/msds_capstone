@@ -18,3 +18,11 @@
 -Focused on understanding how the Word Embedding was done to ensure machine learning algorithms are reproducible. <br>
 -[Requirements Slides](https://docs.google.com/presentation/d/1kJGZvuGkIB1E4net2ipg81y3v-zn55AepvC93jrRlPs/edit#slide=id.p) <br>
 -**Goal for next sprint**: Kick off process of getting transcript dataset from S&P Global downloaded to personal laptop and practice basic SQL queries to pull data.
+
+
+## 2024-06-16
+-Reviewed Neural Network fundamentals
+-Using this video as a guide for hand-coded neural net [https://www.youtube.com/watch?v=w8yWXqWQYmU&ab_channel=SamsonZhang], as well as ML135 Videos.
+-Hand calcs for Neural Net [https://towardsdatascience.com/training-a-neural-network-by-hand-1bcac4d82a6e]
+-I am losing track of the gradient descent process--need to spend more time reviewing.
+-**Goal for next sprint**: Understand each part of the neural network, get Snowflake account set up from S&P and discuss credit limitations. Learn Tensorflow and PyTorch.
