@@ -29,9 +29,9 @@
 
 
 ## 2024-06-25
--Continued Review of NeuralNetworks
--Worked on use Brown corpus to create bigrams using this tutorial [https://www.udemy.com/share/1023z43@h_yYHNiZa4OPC92zqPpgZ9bzuhmxrpILIkft6Q-JXZQT3BWmFr-oPgjdzjEKPAyOQQ==/]
--Struggling a bit with preprocessing, in particular where to split up bigrams by punctuation and eliminate stopwords without getting rid of context
--Got set up with S&P's Transcript data on Snowflake. Took about a week of back and forth with product to get tables full set up.
--Worked on filtering out banks and earnings calls from the total transcript population. Currently the data lives in SQL tables, with a single transcript having multiple component rows (every time the speaker changes creates a new row).
--**Goal for next sprint**: Concantenate the transcript compenents and export as a csv with each record being a different transcript, and separate by date. I also want finish the bigram tutorial and move on to skip grams with the brown corpus.
+-Continued Review of NeuralNetworks<br>
+-Worked on use Brown corpus to create bigrams using this tutorial [https://www.udemy.com/share/1023z43@h_yYHNiZa4OPC92zqPpgZ9bzuhmxrpILIkft6Q-JXZQT3BWmFr-oPgjdzjEKPAyOQQ==/]<br>
+-Struggling a bit with preprocessing, in particular where to split up bigrams by punctuation and eliminate stopwords without getting rid of context<br>
+-Got set up with S&P's Transcript data on Snowflake. Took about a week of back and forth with product to get tables full set up.<br>
+-Worked on filtering out banks and earnings calls from the total transcript population. Currently the data lives in SQL tables, with a single transcript having multiple component rows (every time the speaker changes creates a new row).<br>
+-**Goal for next sprint**: Concantenate the transcript compenents and export as a csv with each record being a different transcript, and separate by date. I also want finish the bigram tutorial and move on to skip grams with the brown corpus.<br>
