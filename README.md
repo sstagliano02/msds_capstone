@@ -21,8 +21,17 @@
 
 
 ## 2024-06-16
--Reviewed Neural Network fundamentals
--Using this video as a guide for hand-coded neural net [https://www.youtube.com/watch?v=w8yWXqWQYmU&ab_channel=SamsonZhang], as well as ML135 Videos.
--Hand calcs for Neural Net [https://towardsdatascience.com/training-a-neural-network-by-hand-1bcac4d82a6e]
--I am losing track of the gradient descent process--need to spend more time reviewing.
--**Goal for next sprint**: Understand each part of the neural network, get Snowflake account set up from S&P and discuss credit limitations. Learn Tensorflow and PyTorch.
+-Reviewed Neural Network fundamentals <br>
+-Using this video as a guide for hand-coded neural net [https://www.youtube.com/watch?v=w8yWXqWQYmU&ab_channel=SamsonZhang], as well as ML135 Videos.<br>
+-Hand calcs for Neural Net [https://towardsdatascience.com/training-a-neural-network-by-hand-1bcac4d82a6e]<br>
+-I am losing track of the gradient descent process--need to spend more time reviewing.<br>
+-**Goal for next sprint**: Understand each part of the neural network, get Snowflake account set up from S&P and discuss credit limitations. Learn Tensorflow and PyTorch.<br>
+
+
+## 2024-06-25
+-Continued Review of NeuralNetworks
+-Worked on use Brown corpus to create bigrams using this tutorial [https://www.udemy.com/share/1023z43@h_yYHNiZa4OPC92zqPpgZ9bzuhmxrpILIkft6Q-JXZQT3BWmFr-oPgjdzjEKPAyOQQ==/]
+-Struggling a bit with preprocessing, in particular where to split up bigrams by punctuation and eliminate stopwords without getting rid of context
+-Got set up with S&P's Transcript data on Snowflake. Took about a week of back and forth with product to get tables full set up.
+-Worked on filtering out banks and earnings calls from the total transcript population. Currently the data lives in SQL tables, with a single transcript having multiple component rows (every time the speaker changes creates a new row).
+-**Goal for next sprint**: Concantenate the transcript compenents and export as a csv with each record being a different transcript, and separate by date. I also want finish the bigram tutorial and move on to skip grams with the brown corpus.
