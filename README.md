@@ -35,3 +35,9 @@
 -Got set up with S&P's Transcript data on Snowflake. Took about a week of back and forth with product to get tables full set up.<br>
 -Worked on filtering out banks and earnings calls from the total transcript population. Currently the data lives in SQL tables, with a single transcript having multiple component rows (every time the speaker changes creates a new row).<br>
 -**Goal for next sprint**: Concantenate the transcript compenents and export as a csv with each record being a different transcript, and separate by date. I also want finish the bigram tutorial and move on to skip grams with the brown corpus.<br>
+
+## 2024-07-09
+-Was out of country for a week so progress slowed since last update.<br>
+-Struggling with understanding the data format that needs to be created to feed skip grams to neural net. My understanding right now is that I need a matric of each word pair in a window that shows probability of appearance of that word pair (a window of 5 means 5 words before and after a target word).<br>
+-Also struggling to understand what is meant by "features" of the hidden layer and how that relates to real life features in the data.<br>
+-**Goal for next sprint**: Use Word2Vec library to run basic skip gram model on Brown corpus sample.<br>
