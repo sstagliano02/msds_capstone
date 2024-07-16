@@ -41,3 +41,17 @@
 -Struggling with understanding the data format that needs to be created to feed skip grams to neural net. My understanding right now is that I need a matric of each word pair in a window that shows probability of appearance of that word pair (a window of 5 means 5 words before and after a target word).<br>
 -Also struggling to understand what is meant by "features" of the hidden layer and how that relates to real life features in the data.<br>
 -**Goal for next sprint**: Use Word2Vec library to run basic skip gram model on Brown corpus sample.<br>
+
+## 2024-07-15
+-Worked through Word2Vec library with Chris McCormick's ebook and documentation<br>
+-ebook: [https://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/] docs: [https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html]<br>
+-Struggled with processing and remove punctuation, but was able to work through a basic example. Will need to dive deeper and experiment with different process techniques.<br>
+-Initial uncertainty results OK, but not great. Some intutively make sense but not all.<br>
+-**Goal for next sprint**: Outline design document. <br>
+
+## 2024-07-15
+-**Demo**: [https://share.vidyard.com/watch/YHs5cqYbNGKTgddrYkjjRY?]
+-Code: [https://github.com/sstagliano02/msds_capstone/blob/main/gensim_brown.ipynb]
+
+
+
