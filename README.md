@@ -50,8 +50,15 @@
 -**Goal for next sprint**: Outline design document. <br>
 
 ## 2024-07-15
--**Demo**: [https://share.vidyard.com/watch/YHs5cqYbNGKTgddrYkjjRY?]
--Code: [https://github.com/sstagliano02/msds_capstone/blob/main/gensim_brown.ipynb]
+-**Demo**: [https://share.vidyard.com/watch/YHs5cqYbNGKTgddrYkjjRY?]<br>
+-Code: [https://github.com/sstagliano02/msds_capstone/blob/main/gensim_brown.ipynb]<br>
+
+
+## 2024-08-6
+-Spent last few weeks working on design document--submitted via canvas.<br>
+-Majority of time spent researching the best preprocessing techniques to use--negation handling looks like it will lead to the best results but be difficult.<br>
+-Read through several Mikolov papers to full understand word2vec. <br>
+
 
 
 
