@@ -59,6 +59,31 @@
 -Majority of time spent researching the best preprocessing techniques to use--negation handling looks like it will lead to the best results but be difficult.<br>
 -Read through several Mikolov papers to full understand word2vec. <br>
 
+<<<<<<< HEAD
+## 2024-09-07
+-Negation handling: [https://towardsdatascience.com/increasing-accuracy-of-sentiment-classification-using-negation-handling-9ed6dca91f53] <br>
+-Custom Implementation : [https://www.geeksforgeeks.org/implement-your-own-word2vecskip-gram-model-in-python/#what-is-skipgram]
+-  :[https://datajenius.com/2022/03/13/a-deep-dive-into-nlp-tokenization-encoding-word-embeddings-sentence-embeddings-word2vec-bert/]
+-initial preprocessing took 5 hours on the full data set (punctuation, lowercase, stopwords), 5 minutes on gensim<br>
 
 
+## 2024-09-12
+-New processing took 6 seconds on gensim with the same level of token reduction (1,161,192 to 686,163)<br>
+-On live data new processing took 15 min<br>
+-Kept words with hyphens<br>
+
+## 2024-09-13
+-Think about measuring uncertainty by speaker
+-Look at false positives/false
+-Look at cnns to deal with longer sentences and topics
+
+## 2024-09-21
+-working with S&P to get Loan data in Snowflake environment. Pulling data from Y9C Filings to mimic Soto report and tie data to entity attached to the transcript<br>
+-first pass the team added call report data, but the tables don't have the line items I need<br>
+-Reading about how to actually calculate the sentiment, and Frank Zhao uses a simple count of uncertain words/total words<br>
+
+=======
+
+
+>>>>>>> parent of a6a439e (semester 3 start)
 
