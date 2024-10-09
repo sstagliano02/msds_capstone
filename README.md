@@ -59,7 +59,6 @@
 -Majority of time spent researching the best preprocessing techniques to use--negation handling looks like it will lead to the best results but be difficult.<br>
 -Read through several Mikolov papers to full understand word2vec. <br>
 
-<<<<<<< HEAD
 ## 2024-09-07
 -Negation handling: [https://towardsdatascience.com/increasing-accuracy-of-sentiment-classification-using-negation-handling-9ed6dca91f53] <br>
 -Custom Implementation : [https://www.geeksforgeeks.org/implement-your-own-word2vecskip-gram-model-in-python/#what-is-skipgram]
@@ -73,17 +72,19 @@
 -Kept words with hyphens<br>
 
 ## 2024-09-13
--Think about measuring uncertainty by speaker
--Look at false positives/false
--Look at cnns to deal with longer sentences and topics
+-Think about measuring uncertainty by speaker<br>
+-Look at false positives/false<br>
+-Look at cnns to deal with longer sentences and topics<br>
 
 ## 2024-09-21
 -working with S&P to get Loan data in Snowflake environment. Pulling data from Y9C Filings to mimic Soto report and tie data to entity attached to the transcript<br>
 -first pass the team added call report data, but the tables don't have the line items I need<br>
 -Reading about how to actually calculate the sentiment, and Frank Zhao uses a simple count of uncertain words/total words<br>
 
-=======
 
+## 2024-10-06
+-reworked code to build model for all document years grab uncerainty lists for each year (previously looked at all text)<br>
+-created class to hold each model and associated corpus, word list, etc.<br>
+-created coutner to see which words only appeared in 1 or 2 document years, but final list was much larger than expected (ie words like "outrun" or "evolves" appear in only one year, but have no intuitive macroeconomic meaning). I need to figure out how to futher narrow down the word list to just import topics--considering using a tf idf score with each year being one document<br>
 
->>>>>>> parent of a6a439e (semester 3 start)
 
