@@ -88,3 +88,11 @@
 -created coutner to see which words only appeared in 1 or 2 document years, but final list was much larger than expected (ie words like "outrun" or "evolves" appear in only one year, but have no intuitive macroeconomic meaning). I need to figure out how to futher narrow down the word list to just import topics--considering using a tf idf score with each year being one document<br>
 
 
+## 2024-10-13
+-Focused on loading in loan data. had difficulties getting the right data, but was helped by S&P support.
+-Loaded in loan data in one file, and then had to pull CIQ to SNL ID mapping in another file.
+-Also pulled in a new file that just had all transcript IDs in one place rather than across multiple years
+-Worked on creating a blank dataframe and then iterating over the the transcript data base, grabbing connections/maps from each data set.
+-Created an uncertainty score, looking at the count of uncertainty words/over transcript length
+
+
