@@ -89,10 +89,16 @@
 
 
 ## 2024-10-13
--Focused on loading in loan data. had difficulties getting the right data, but was helped by S&P support.
--Loaded in loan data in one file, and then had to pull CIQ to SNL ID mapping in another file.
--Also pulled in a new file that just had all transcript IDs in one place rather than across multiple years
--Worked on creating a blank dataframe and then iterating over the the transcript data base, grabbing connections/maps from each data set.
--Created an uncertainty score, looking at the count of uncertainty words/over transcript length
+-Focused on loading in loan data. had difficulties getting the right data, but was helped by S&P support.<br>
+-Loaded in loan data in one file, and then had to pull CIQ to SNL ID mapping in another file.<br>
+-Also pulled in a new file that just had all transcript IDs in one place rather than across multiple years<br>
+-Worked on creating a blank dataframe and then iterating over the the transcript data base, grabbing connections/maps from each data set.<br>
+-Created an uncertainty score, looking at the count of uncertainty words/over transcript length<br>
+
+## 2024-10-16
+-generating the dataframe to store uncertainty scores and loan movements is taking two hours<br>
+-manually fixed quarter errors in transcript id csv file(only ~10 or so)<br>
+-realized i only have to generate the df to store uncertainty scores once, as loan/assets will never change. Only need to save and reload/fill in uncertainty scores.<br>
+-soto paper uses tf_idf weights for each word when adding up uncertainty, added this as another metric<br>
 
 
