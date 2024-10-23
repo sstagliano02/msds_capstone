@@ -101,4 +101,9 @@
 -realized i only have to generate the df to store uncertainty scores once, as loan/assets will never change. Only need to save and reload/fill in uncertainty scores.<br>
 -soto paper uses tf_idf weights for each word when adding up uncertainty, added this as another metric<br>
 
+## 2024-10-16
+-added options to look at originals soto wordlist<br>
+-current correlation coefficients with uncertainty scores/loans is very weak for both yearly and fully model runs, although the uncertainty dictionaries intuitively makes sense<br>
+
+
 

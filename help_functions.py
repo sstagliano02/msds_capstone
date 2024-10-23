@@ -18,3 +18,5 @@ def get_next_qtr(quarter_string):
             qtr_digit = 1
             year += 1
             return('Q'+str(qtr_digit)+" "+str(year))
+
+
