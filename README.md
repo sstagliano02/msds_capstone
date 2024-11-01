@@ -105,5 +105,9 @@
 -added options to look at originals soto wordlist<br>
 -current correlation coefficients with uncertainty scores/loans is very weak for both yearly and fully model runs, although the uncertainty dictionaries intuitively makes sense<br>
 
+## 2024-10-16
+-pulled additional bank data in order to run a regression to see if I could find a better predictor of loan movements<br>
+-targeted datapoints mentioned by soto report, struggled with pulling SNL data so also grabbed CIQ<br>
+
 
 
