@@ -105,9 +105,14 @@
 -added options to look at originals soto wordlist<br>
 -current correlation coefficients with uncertainty scores/loans is very weak for both yearly and fully model runs, although the uncertainty dictionaries intuitively makes sense<br>
 
-## 2024-10-16
+## 2024-10-31
 -pulled additional bank data in order to run a regression to see if I could find a better predictor of loan movements<br>
 -targeted datapoints mentioned by soto report, struggled with pulling SNL data so also grabbed CIQ<br>
 
 
+## 2024-10-31
+-adding lemmatizer based on S&P research. using NLTK. initial run took 12 hours.<br>
+
+## 2024-11-03
+-Working on looking up results in real transcripts. Realizing some words are specific to bank, not a year.<br>
 
