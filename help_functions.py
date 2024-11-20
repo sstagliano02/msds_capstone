@@ -20,3 +20,9 @@ def get_next_qtr(quarter_string):
             return('Q'+str(qtr_digit)+" "+str(year))
 
 
+def company_quarter_lookup(transcript_id, delta_df):
+
+    ciq_id = delta_df.loc[delta_df['transcript_id'] == transcript_id, 'ciq_id'].values[0]
+    quarter = delta_df.loc[delta_df['transcript_id'] == transcript_id, 'quarter'].values[0]
+    return(ciq_id,quarter)
+

@@ -116,3 +116,11 @@
 ## 2024-11-03
 -Working on looking up results in real transcripts. Realizing some words are specific to bank, not a year.<br>
 
+
+## 2024-11-17
+-Presentation building
+-Adding logic to only look at words in 2 or more CIQ Ids
+
+## 2024-11-19
+-Wrestling with how to showcases model differences of the word2vec hyperparameters without having a reliable performance indicator
+-Adding logic to only look at words in 2 or more CIQ Ids
