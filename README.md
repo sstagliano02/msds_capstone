@@ -118,9 +118,14 @@
 
 
 ## 2024-11-17
--Presentation building
--Adding logic to only look at words in 2 or more CIQ Ids
+-Presentation building<br>
+-Adding logic to only look at words in 2 or more CIQ Ids<br>
 
 ## 2024-11-19
--Wrestling with how to showcases model differences of the word2vec hyperparameters without having a reliable performance indicator
--Adding logic to only look at words in 2 or more CIQ Ids
+-Wrestling with how to showcases model differences of the word2vec hyperparameters without having a reliable performance indicator<br>
+-Adding logic to only look at words in 2 or more CIQ Ids<br>
+
+
+## 2024-11-25
+-implementing tests across 10 runs. Tking 12 hours to run.<br>
+
